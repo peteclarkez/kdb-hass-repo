@@ -1,0 +1,25 @@
+name: KDBX Tick
+version: 5.0.5
+slug: kdbtick
+description: KDB-X Tick time-series database for Home Assistant events
+url: https://github.com/peteclarkez/hassio-kdb
+arch:
+  - amd64
+  - aarch64
+advanced: true
+init: false
+startup: system
+boot: auto
+map:
+  - type: config
+    read_only: false
+ports:
+  5010/tcp: 5010
+  5011/tcp: 5011
+  5012/tcp: 5012
+  5013/tcp: 5013
+options:
+  KX_LICENSE_B64: ""
+schema:
+  KX_LICENSE_B64: str
+image: peteclarkez/hassio-kdb
