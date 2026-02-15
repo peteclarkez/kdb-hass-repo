@@ -1,5 +1,5 @@
 name: KDBX Tick
-version: 5.0.5
+version: 5.0.6
 slug: kdbtick
 description: KDB-X Tick time-series database for Home Assistant events
 url: https://github.com/peteclarkez/hassio-kdb
